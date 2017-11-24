@@ -31,5 +31,5 @@ products = prefix -> [
 	ExecutableProduct(prefix,"iconv")
 ]
 
-autobuild(pwd(), "", platforms, sources, script, products)
+autobuild(pwd(), "libiconv", platforms, sources, script, products)
 
